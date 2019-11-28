@@ -1,0 +1,114 @@
+body {
+    background-color: #3CACC6;
+    background-image: linear-gradient(teal, darkgray);
+
+}
+
+#BigSavingsTravel,
+#DescriptionDiv {
+    text-align: center;
+}
+
+#Savings {
+    color: rgb(209, 26, 56);
+    font-size: 5rem;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+#Description {
+    font-family: 'Righteous', cursive;
+    font-size: 2rem;
+}
+
+.Gifs {
+    height: 22rem;
+    width: 38rem;
+    padding: 1.25rem;
+}
+
+#Contact {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.ContactMe {
+    font-size: 2rem;
+}
+
+.AdvertismentPicSolo,
+#PotentialSalaryDiv {
+    height: 44rem;
+    width: 45rem;
+    padding: 1.25rem;
+}
+
+.AdvertismentPics {
+    height: 50rem;
+    width: 45rem;
+    padding: 1.25rem;
+}
+
+#GeneralSalary {
+    font-size: 3.75rem;
+    margin-bottom: .2rem;
+}
+
+.AdvertismentPics {}
+
+.Size {
+    height: 3rem;
+}
+
+.Link {
+    text-decoration: underline;
+    color: purple;
+}
+
+.Link:hover {
+    color: rgb(247, 39, 39);
+    font-size: 3rem;
+}
+
+.Video {
+    height: 25rem;
+    width: 45rem;
+
+}
+
+#Videoid {
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#SalaryDiv {
+    margin-bottom: 4rem;
+}
+
+.Opp {
+    font-size: 2rem;
+    font-weight: bold;
+    width: 75rem;
+}
+
+.Oppurtunity {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.Membership {
+    font-size: 2rem;
+}
+
+.Lists {
+    font-size: 1.2rem;
+}
+
+.Text1 {
+    font-size: 1.75rem;
+}
+
+.RandomPic {
+    height: 20rem;
+    width: 40rem;
+}
