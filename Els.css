@@ -1,12 +1,18 @@
 body {
     background-color: #3CACC6;
     background-image: linear-gradient(teal, darkgray);
+    text-align: center;
 
 }
 
 #BigSavingsTravel,
 #DescriptionDiv {
     text-align: center;
+}
+
+.Text2 {
+    font-size: 1.5rem;
+
 }
 
 #Savings {
@@ -26,6 +32,7 @@ body {
     padding: 1.25rem;
 }
 
+
 #Contact {
     font-size: 1.25rem;
     font-weight: bold;
@@ -35,16 +42,16 @@ body {
     font-size: 2rem;
 }
 
-.AdvertismentPicSolo,
+.AdvertismentPics,
 #PotentialSalaryDiv {
-    height: 44rem;
-    width: 45rem;
+    height: 30rem;
+    width: 30rem;
     padding: 1.25rem;
 }
 
-.AdvertismentPics {
-    height: 50rem;
-    width: 45rem;
+.AdvertismentPicSolo {
+    height: 30rem;
+    width: 30rem;
     padding: 1.25rem;
 }
 
@@ -52,8 +59,6 @@ body {
     font-size: 3.75rem;
     margin-bottom: .2rem;
 }
-
-.AdvertismentPics {}
 
 .Size {
     height: 3rem;
@@ -70,45 +75,88 @@ body {
 }
 
 .Video {
-    height: 25rem;
-    width: 45rem;
+    height: 24rem;
+    width: 32rem;
+    padding: 1.25rem;
+    border: 0;
 
 }
 
-#Videoid {
-    margin-bottom: 4rem;
-    display: flex;
-    justify-content: space-evenly;
-}
+@media only screen and (max-width: 525px) {
+    .Video {
+        height: 7.5rem;
+        width: 9.8rem;
+        border: 0;
+        padding: .01rem;
+    }
 
-#SalaryDiv {
-    margin-bottom: 4rem;
-}
 
-.Opp {
-    font-size: 2rem;
-    font-weight: bold;
-    width: 75rem;
-}
 
-.Oppurtunity {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
+    #Videoid {
+        margin-bottom: 4rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
 
-.Membership {
-    font-size: 2rem;
-}
+    #SalaryDiv {
+        margin-bottom: 4rem;
+    }
 
-.Lists {
-    font-size: 1.2rem;
-}
+    .Opp {
+        font-size: 2rem;
+        font-weight: bold;
+        width: 30rem;
+    }
 
-.Text1 {
-    font-size: 1.75rem;
-}
+    .Oppurtunity {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
 
-.RandomPic {
-    height: 20rem;
-    width: 40rem;
-}
+    .Membership {
+        font-size: 2rem;
+    }
+
+    .Lists {
+        font-size: 1.2rem;
+    }
+
+    @media only screen and (max-width: 525px) {
+        .Lists {
+            font-size: .75rem;
+        }
+
+
+
+        .Text1 {
+            font-size: 1.75rem;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+        }
+
+        .RandomPic {
+            height: 20rem;
+            width: 40rem;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .Gifs {
+                height: 11rem;
+                width: 19rem;
+                padding: .75rem;
+            }
+
+            .RandomPic {
+                height: 10rem;
+                width: 15rem;
+            }
+
+            .AdvertismentPics,
+            .AdvertismentPicSolo,
+            #PotentialSalaryDiv {
+                height: 22rem;
+                width: 22.5rem;
+                padding: .75rem;
+            }
+        }
